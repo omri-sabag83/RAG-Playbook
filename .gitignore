@@ -1,0 +1,13 @@
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+PLAN*.md
+
+# The dataset is downloaded by data/get_data.py, never committed (news articles reproduced from their outlets).
+data/raw/
+
+# Saved model outputs (embeddings, answers), rebuilt on demand by common.py.
+data/cache/
+
+# Local build helpers (notebook builders, number checks)
+_build/
