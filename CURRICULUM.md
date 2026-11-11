@@ -17,14 +17,14 @@ free program that downloads and runs AI models. No paid service is used.
 
 ## Progress
 
-`⬜⬜⬜⬜⬜⬜⬜⬜⬜` **0% complete (0/9 modules)**
+`🟩🟩⬜⬜⬜⬜⬜⬜⬜` **22% complete (2/9 modules)**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
 | # | Module | Data | Status | Completed On |
 |---|--------|------|--------|---------------|
-| 1 | Why RAG Exists | MultiHop-RAG (shared) | 🟩 Complete | 11.11.2026 |
-| 2 | Embeddings | MultiHop-RAG (shared) | ⬜ Not started | |
+| 1 | Why RAG Exists | MultiHop-RAG (shared) | 🟩 Complete | 2026-11-11 |
+| 2 | Embeddings | MultiHop-RAG (shared) | 🟩 Complete | 2026-11-11 |
 | 3 | Retrieval | MultiHop-RAG (shared) | ⬜ Not started | |
 | 4 | Evaluating Retrieval | MultiHop-RAG (shared) | ⬜ Not started | |
 | 5 | Chunking | MultiHop-RAG (shared) | ⬜ Not started | |
@@ -85,7 +85,7 @@ Retraining is explained, not run: it needs a graphics card.
 
 **Concepts**
 - An embedding: a piece of text turned into a fixed-length list of numbers
-- Cosine similarity: how close two embeddings point, from −1 to 1
+- Cosine similarity: one number, from −1 to 1, for how close two embeddings are
 - Why similar meaning lands close, and where it fails (negation, names, numbers)
 
 **Worked example:** sentences from the articles, their embeddings, and which

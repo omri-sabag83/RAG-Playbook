@@ -10,7 +10,7 @@ The program, progress table and per-module detail are in
 | # | Notebook | Topic |
 |---|----------|-------|
 | 1 | `01_why_rag_exists.ipynb` | Why RAG exists: the model alone, the right articles added, the whole collection, and retraining |
-| 2 | — | Embeddings |
+| 2 | `02_embeddings.ipynb` | Embeddings: turning text into numbers, cosine similarity, and where similar numbers hide different facts |
 | 3 | — | Retrieval |
 | 4 | — | Evaluating retrieval |
 | 5 | — | Chunking |
