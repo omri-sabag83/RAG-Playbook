@@ -17,7 +17,7 @@ free program that downloads and runs AI models. No paid service is used.
 
 ## Progress
 
-`🟩🟩⬜⬜⬜⬜⬜⬜⬜` **22% complete (2/9 modules)**
+`🟩🟩🟩⬜⬜⬜⬜⬜⬜` **33% complete (3/9 modules)**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
@@ -25,7 +25,7 @@ free program that downloads and runs AI models. No paid service is used.
 |---|--------|------|--------|---------------|
 | 1 | Why RAG Exists | MultiHop-RAG (shared) | 🟩 Complete | 2026-11-11 |
 | 2 | Embeddings | MultiHop-RAG (shared) | 🟩 Complete | 2026-11-11 |
-| 3 | Retrieval | MultiHop-RAG (shared) | ⬜ Not started | |
+| 3 | Retrieval | MultiHop-RAG (shared) | 🟩 Complete | 2026-11-12 |
 | 4 | Evaluating Retrieval | MultiHop-RAG (shared) | ⬜ Not started | |
 | 5 | Chunking | MultiHop-RAG (shared) | ⬜ Not started | |
 | 6 | Generation | MultiHop-RAG (shared) | ⬜ Not started | |
@@ -96,7 +96,7 @@ pairs land close.
 **Concepts**
 - The vector store: every chunk's embedding, kept in one table to search
 - Top-k search: the k chunks closest to the question
-- Keyword search (BM25, a word-matching score) vs. meaning search (embeddings)
+- Keyword search (BM25, Best Matching 25: a word-matching score) vs. meaning search (embeddings)
 - Hybrid search: combining the two rankings
 
 **Worked example:** one question searched three ways, side by side.
