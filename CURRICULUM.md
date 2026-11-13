@@ -17,7 +17,7 @@ free program that downloads and runs AI models. No paid service is used.
 
 ## Progress
 
-`🟩🟩🟩⬜⬜⬜⬜⬜⬜` **33% complete (3/9 modules)**
+`🟩🟩🟩🟩⬜⬜⬜⬜⬜` **44% complete (4/9 modules)**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
@@ -26,7 +26,7 @@ free program that downloads and runs AI models. No paid service is used.
 | 1 | Why RAG Exists | MultiHop-RAG (shared) | 🟩 Complete | 2026-11-11 |
 | 2 | Embeddings | MultiHop-RAG (shared) | 🟩 Complete | 2026-11-11 |
 | 3 | Retrieval | MultiHop-RAG (shared) | 🟩 Complete | 2026-11-12 |
-| 4 | Evaluating Retrieval | MultiHop-RAG (shared) | ⬜ Not started | |
+| 4 | Evaluating Retrieval | MultiHop-RAG (shared) | 🟩 Complete | 2026-11-13 |
 | 5 | Chunking | MultiHop-RAG (shared) | ⬜ Not started | |
 | 6 | Generation | MultiHop-RAG (shared) | ⬜ Not started | |
 | 7 | Evaluating Answers | MultiHop-RAG (shared) | ⬜ Not started | |
@@ -107,7 +107,7 @@ pairs land close.
 - What "found the right material" means: the retrieved chunks contain the
   labelled supporting sentences
 - Recall@k: the share of supporting sentences found in the top k
-- MRR (mean reciprocal rank): how high the first right chunk ranks
+- MRR@k (mean reciprocal rank at k): how high the first right chunk ranks
 - Comparing search methods on the same questions
 
 **Worked example:** keyword, meaning and hybrid search graded on the same
