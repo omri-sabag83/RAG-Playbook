@@ -13,7 +13,7 @@ The program, progress table and per-module detail are in
 | 2 | `02_embeddings.ipynb` | Embeddings: turning text into numbers, cosine similarity, and where similar numbers hide different facts |
 | 3 | `03_retrieval.ipynb` | Retrieval: the vector store, meaning search, keyword search (BM25) and hybrid search, side by side |
 | 4 | `04_evaluating_retrieval.ipynb` | Evaluating retrieval: recall@4 and MRR@4 of the three ways of searching, which gaps are larger than chance, larger k, and each kind of question |
-| 5 | — | Chunking |
+| 5 | `05_chunking.ipynb` | Chunking: five ways of splitting the articles, recall and MRR at the same k and at the same number of words read, and what small and large chunks each lose |
 | 6 | — | Generation |
 | 7 | — | Evaluating answers |
 | 8 | — | Failure modes |
