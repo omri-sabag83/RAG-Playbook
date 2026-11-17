@@ -17,7 +17,7 @@ free program that downloads and runs AI models. No paid service is used.
 
 ## Progress
 
-`🟩🟩🟩🟩🟩⬜⬜⬜⬜` **56% complete (5/9 modules)**
+`🟩🟩🟩🟩🟩🟩⬜⬜⬜` **67% complete (6/9 modules)**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
@@ -28,7 +28,7 @@ free program that downloads and runs AI models. No paid service is used.
 | 3 | Retrieval | MultiHop-RAG (shared) | 🟩 Complete | 2026-11-12 |
 | 4 | Evaluating Retrieval | MultiHop-RAG (shared) | 🟩 Complete | 2026-11-13 |
 | 5 | Chunking | MultiHop-RAG (technology articles) | 🟩 Complete | 2026-11-14 |
-| 6 | Generation | MultiHop-RAG (shared) | ⬜ Not started | |
+| 6 | Generation | MultiHop-RAG (technology articles) | 🟩 Complete | 2026-11-17 |
 | 7 | Evaluating Answers | MultiHop-RAG (shared) | ⬜ Not started | |
 | 8 | Failure Modes | MultiHop-RAG (shared) | ⬜ Not started | |
 | 9 | Capstone: The Whole Pipeline | MultiHop-RAG (shared) | ⬜ Not started | |
@@ -52,7 +52,7 @@ sentences, each module can grade its own results instead of judging them by eye.
 - a language model (`llama3.2:3b`), which writes the answer
 
 **Samples, stated:** the language model runs on the computer's processor, which
-is slow. Modules that grade many answers use a fixed random sample of questions,
+is slow. Modules that rule on many answers use a fixed random sample of questions,
 and each one states its size.
 
 **The dataset can change per module:** if another dataset would teach a module
@@ -138,10 +138,10 @@ sample of questions.
 **Concepts**
 - Correctness: does the answer match the labelled answer?
 - Faithfulness: does the answer use only what was retrieved?
-- Using a language model as a grader, and checking the grader by hand
+- Using a language model as a judge, and checking the judge by hand
 - Separating a retrieval failure from a generation failure
 
-**Worked example:** a sample of answers graded both ways, with the grader's
+**Worked example:** a sample of answers ruled on both ways, with the judge's
 errors counted.
 
 ## <u>Module 8 — Failure Modes</u>
@@ -162,5 +162,5 @@ failures traced to their cause.
 - Which setting moved the results most
 - A guide from the problem's shape to the right tool
 
-**Worked example:** the full pipeline run and graded, with every setting from
+**Worked example:** the full pipeline run, graded and ruled on, with every setting from
 Modules 3–8 compared in one table.

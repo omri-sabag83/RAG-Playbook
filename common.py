@@ -31,9 +31,9 @@ CACHE = ROOT / "data" / "cache"
 
 # Chart palette: reference categorical slots (same as the earlier playbooks).
 BLUE, ORANGE, AQUA, GREY = "#2a78d6", "#eb6834", "#1baf7a", "#888888"
-# Grade colours, used in every chart of right / did not answer / wrong answers:
-# grade -> (bar colour, colour of the number written on the bar).
-GRADE_COLORS = {"right": ("#2E8B57", "white"), "did not answer": ("#BBBBBB", "black"),
+# Ruling colours, used in every chart of right / did not answer / wrong answers:
+# ruling -> (bar colour, colour of the number written on the bar).
+RULING_COLORS = {"right": ("#2E8B57", "white"), "did not answer": ("#BBBBBB", "black"),
                 "wrong": ("#E02424", "white")}
 plt.rcParams.update({"axes.spines.top": False, "axes.spines.right": False,
                      "axes.grid": True, "grid.alpha": 0.25, "figure.dpi": 110})
