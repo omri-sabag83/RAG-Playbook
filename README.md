@@ -17,7 +17,7 @@ The program, progress table and per-module detail are in
 | 6 | `06_generation.ipynb` | Generation: the prompt with and without three rules, rulings on answers with and without an answer in the articles, citation checks, and two example answers with their sources |
 | 7 | `07_evaluating_answers.ipynb` | Evaluating answers: correctness and faithfulness ruled by a hand check, a word match and a language-model judge, each compared with a blind checker, and a check of whether a missed article explains wrong answers |
 | 8 | `08_failure_modes.ipynb` | Failure modes: results by kind of question, each failure traced to the search or the language model, a needed chunk placed in a long prompt or left out, and counting questions next to the article table |
-| 9 | — | Capstone: the whole pipeline |
+| 9 | `09_capstone.ipynb` | Capstone: the whole pipeline on new questions, one setting changed at a time, graded by recall and by right answers, both gaps and the time per answer in one table, and a guide from the problem's shape to the right tool |
 
 Related repos: [Causal Inference Playbook](https://github.com/omri-sabag83/Causal-Inference-Playbook),
 [Scikit-Learn Playbook](https://github.com/omri-sabag83/Scikit-Learn-Playbook),

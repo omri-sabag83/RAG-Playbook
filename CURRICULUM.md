@@ -17,7 +17,7 @@ free program that downloads and runs AI models. No paid service is used.
 
 ## Progress
 
-`🟩🟩🟩🟩🟩🟩🟩🟩⬜` **89% complete (8/9 modules)**
+`🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100% complete (9/9 modules)**
 
 ⬜ Not started · 🟨 In progress · 🟩 Completed
 
@@ -31,7 +31,7 @@ free program that downloads and runs AI models. No paid service is used.
 | 6 | Generation | MultiHop-RAG (technology articles) | 🟩 Complete | 2026-11-17 |
 | 7 | Evaluating Answers | MultiHop-RAG (technology articles) | 🟩 Complete | 2026-11-18 |
 | 8 | Failure Modes | MultiHop-RAG (technology articles) | 🟩 Complete | 2026-11-19 |
-| 9 | Capstone: The Whole Pipeline | MultiHop-RAG (shared) | ⬜ Not started | |
+| 9 | Capstone: The Whole Pipeline | MultiHop-RAG (technology articles) | 🟩 Complete | 2026-11-20 |
 
 ---
 
